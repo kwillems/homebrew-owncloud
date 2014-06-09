@@ -13,7 +13,7 @@ To install libiniparser and libqtkeychain, run
     brew install iniparser
     brew install qtkeychain
 
-To link neon do
+To link neon do (--force is passed so Homebrew will allow this keg-only formula to be linked)
 
     brew link --force neon
 
