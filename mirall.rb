@@ -6,7 +6,7 @@ class Mirall < Formula
   depends_on 'cmake' => :build
 # ocsync should not be installed
 #  depends_on 'ocsync'
-  depends_on 'qt5'
+#  depends_on 'qt5'
   depends_on 'neon'
 
 def install
