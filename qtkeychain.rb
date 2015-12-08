@@ -5,8 +5,8 @@ require 'formula'
 class Qtkeychain < Formula
   homepage 'https://github.com/frankosterfeld/qtkeychain'
   head 'https://github.com/frankosterfeld/qtkeychain.git', :using => :git
-  url 'https://github.com/frankosterfeld/qtkeychain/archive/0.3.tar.gz'
-  sha1 '38a55bec4720107ec5da40fa785cb0ae5b8bdd6c'
+  url 'https://github.com/frankosterfeld/qtkeychain/archive/0.5.tar.gz'
+  sha1 'e4cf4b54b81d24b0ca56a2b94007ff5e85658b5d'
 
   depends_on 'cmake' => :build
   # depends on Qt, but we want to accept a system Qt as well. How?
